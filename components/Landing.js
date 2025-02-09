@@ -53,11 +53,11 @@ regulatory requirements.
               src="images/healthx.png"
               alt=""
             />
-            <img
+            {/* <img
               className="h-7 md:h-28"
               src="images/nbp.png"
               alt=""
-            />
+            /> */}
             <img
               className="h-7 md:h-28"
               src="images/eatfoodpak.png"

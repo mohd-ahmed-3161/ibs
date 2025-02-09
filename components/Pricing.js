@@ -109,54 +109,11 @@ export default function Pricing() {
         </div>
 
         {/* "Our Goals" Section */}
-        <div className="max-w-3xl mx-auto md:text-center">
+        {/* <div className="max-w-3xl mx-auto md:text-center">
           <h2 className="mb-5 mt-28 text-3xl font-semibold text-gray-800 md:text-5xl">
             Our Goals
           </h2>
-        </div>
-        <div className="mt-10 max-w-xl mx-auto">
-          {Object.entries(goalsData).map(([year, goals]) => (
-            <div key={year} className="mb-4">
-              {/* Accordion Header */}
-              <button
-                onClick={() => toggleYear(year)}
-                className="flex items-center justify-between w-full px-4 py-2 text-lg font-semibold text-gray-800 bg-white shadow-md rounded-md focus:outline-none"
-              >
-                <span>{year}</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className={`w-5 h-5 transition-transform ${
-                    openYear === year ? "rotate-180" : ""
-                  }`}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-
-              {/* Accordion Content */}
-              <div
-                ref={(el) => (contentRefs.current[year] = el)}
-                className={`overflow-hidden transition-all duration-300 ${
-                  openYear === year ? "max-h-[500px]" : "max-h-0"
-                }`}
-              >
-                <ul className="mt-2 space-y-2 bg-gray-100 rounded-md p-4">
-                  {goals.map((goal, index) => (
-                    <Feature key={index} featureText={goal} />
-                  ))}
-                </ul>
-              </div>
-            </div>
-          ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
