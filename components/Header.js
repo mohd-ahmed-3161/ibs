@@ -12,7 +12,7 @@ export default function Header() {
           >
             IBS
           </a>
-          <button
+          {/* <button
             className="px-3 py-1 bg-white rounded-full cursor-pointer bg-opacity-30 focus:outline-none md:hidden"
             type="button"
             aria-label="button"
@@ -33,7 +33,7 @@ export default function Header() {
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
-          </button>
+          </button> */}
         </div>
         {/* <div
           className={

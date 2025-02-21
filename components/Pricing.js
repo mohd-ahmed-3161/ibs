@@ -56,16 +56,18 @@ export default function Pricing() {
     >
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
         {/* "Our Numbers" Section */}
-        <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100 md:mb-28">
-          <div className="max-w-3xl mx-auto md:text-center">
-            <div className="inline-block px-3 py-1 text-sm font-semibold text-black rounded-lg bg-[#bbd0dd] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40 mb-4">
-              Why Choose Us?
-            </div>
-            <h2 className="mt-8 text-3xl font-semibold text-gray-800 md:text-5xl">
-              Our Numbers
-            </h2>
-          </div>
-        </div>
+        {/* "Our Numbers" Section */}
+<div className="flex flex-col items-center justify-center transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100 mb-10">
+  <div className="w-full max-w-3xl text-center">
+    <div className="inline-block px-3 py-1 text-sm font-semibold text-black rounded-lg bg-[#bbd0dd] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40 mb-4">
+      Why Choose Us?
+    </div>
+    <h2 className="mt-8 text-3xl font-semibold text-gray-800 md:text-5xl">
+      Our Numbers
+    </h2>
+  </div>
+</div>
+
         <div className="grid grid-cols-1 gap-10 md:mt-0 xl:grid-cols-3">
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="flex flex-col p-6 space-y-4 bg-white bg-opacity-75 border border-white border-opacity-75 shadow-xl rounded-xl md:space-y-6 md:p-8">
@@ -89,7 +91,7 @@ export default function Pricing() {
               </div>
               <hr className="border-t border-gray-300" />
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                Satisfied customers served
+                Satisfied customers served 
               </h5>
             </div>
           </div>

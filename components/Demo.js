@@ -16,14 +16,7 @@ export default function Demo() {
               highly qualified professionals from diversified
               backgrounds providing business consultancy
               services to business community within and outside
-              Pakistan. The association came in to existence as
-              our individual practitioners advanced into their
-              professional lives and later decided to combine
-              and synergise their expertise for the betterment of
-              business community of Pakistan. We look forward
-              to become a leading name in business consultancy
-              by employing meritorious minds into our team
-              and delivering intelligence to our clients.
+              Pakistan. 
             </p>
           </div>
         </div>
@@ -74,7 +67,7 @@ export default function Demo() {
           </div>
         </div> */}
       </div>
-      <div className="max-w-3xl px-8 mx-auto sm:px-6 sm:pt-20 lg:max-w-5xl lg:px-8">
+      <div className="max-w-3xl px-8 mx-auto sm:px-6 sm:pt-10 lg:max-w-5xl lg:px-8">
         {/* <div className="inline-block px-3 py-1 mt-12 text-sm rounded-lg md:md-0 bg-emerald-100 bg-opacity-60 text-emerald-500 hover:cursor-pointer hover:bg-opacity-80">
           Product in Action
         </div> */}
@@ -165,11 +158,11 @@ export default function Demo() {
 
 
       </div>
-      <div className="max-w-3xl px-8 mx-auto sm:px-6 sm:pt-20 lg:max-w-5xl lg:px-8">
+      {/* <div className="max-w-3xl px-8 mx-auto sm:px-6 sm:pt-10 lg:max-w-5xl lg:px-8">
         <h2 className="mt-4 bg-gradient-to-r from-[#1D976C] to-[#38ef7d] bg-clip-text text-3xl font-medium text-transparent">
           Our Team
         </h2>
-      </div>
+      </div> */}
     </section>
   );
 }

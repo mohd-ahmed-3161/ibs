@@ -7,8 +7,10 @@ import Features from '../components/Features';
 import Demo from '../components/Demo';
 import Pricing from '../components/Pricing';
 import Testimonies from '../components/Testimonies';
+import Contact from '../components/Contact';
 import Action from '../components/Action';
 import Footer from '../components/Footer';
+import Companies from '../components/Companies';
 
 const Home: NextPage = () => {
   return (
@@ -30,15 +32,17 @@ const Home: NextPage = () => {
             zIndex: -1,
           }}
         />
+      </div>
         <Header />
         <Landing />
+        <Companies/>
         <Demo />
         <Features />
         <Pricing />
         {/* <Testimonies /> */}
         <Action />
+        <Contact />
         <Footer />
-      </div>
     </>
   );
 };
